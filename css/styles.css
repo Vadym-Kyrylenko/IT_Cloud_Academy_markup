@@ -5,28 +5,27 @@ body {
     text-align: left;
 }
 
-.logo{
+.logo {
     margin: 20px;
     text-align: center;
 }
 
-.wrapper{
+.wrapper {
     width: 1063px;
     margin: 0 auto;
 }
 
-.nav__list{
+.nav__list {
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
-    font-family: "Times New Roman";
-    font-size: 14px;
+    font: 14px "Times New Roman", Times, serif;
     width: 1063px;
     text-transform: uppercase;
 }
 
-.nav__list li{
+.nav__list li {
     display: inline;
     padding: 0 20px;
 }
@@ -45,32 +44,27 @@ body {
 }
 
 .category {
-    font-size: 14px;
-    font-family: "Arial";
+    font: 14px, Arial, Helvetica, sans-serif;
     color: #b4ad9e;
     text-transform: uppercase;
-
 }
 
 h1 {
-    font-size: 36px;
-    font-family: "Times New Roman";
-    color: #989898;
-    font-weight: bold;
-    line-height: 1.2;
-    height: 33px;
+    font: bold 36px/1.2 "Times New Roman", Times, serif;
 }
 
-.comment {
-    font-size: 14px;
-    font-family: "Arial";
-    color: #b4ad9e;
-    text-transform: uppercase;
-}
-
-.words {
+ul a {
     color: red;
     text-decoration: underline;
+}
+
+ul a:hover {
+    color:  #920999;
+    text-decoration: none;
+}
+
+ul a:active {
+    color: #660033;
 }
 
 ul {
@@ -82,8 +76,7 @@ ol {
 }
 
 footer {
-    font-size: 14px;
-    font-family: "Times New Roman";
+    font: 14px "Times New Roman", Times, serif;
     background: #f0f0f0;
     text-align: right;
     height: 97px;
@@ -94,8 +87,7 @@ footer img {
     padding: 0 15px;
 }
 
-.follow{
+.follow {
     padding-top: 40px;
     padding-right: 10px;
 }
-
